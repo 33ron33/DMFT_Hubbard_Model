@@ -117,3 +117,9 @@ Insert error : recovering ...
 Insert error : recovering ... 
   Final fixed-bath replica 4/6
 Insert error : recovering ... 
+  Final fixed-bath replica 5/6
+  Final fixed-bath replica 6/6
+  Final replica filling = 0.7002476; Bethe residual=3.774e-04; saved to /lustre/isaac24/scratch/rnain/DMFT_with_Doping/cthyb_test_results/U8_n0p7_beta25_adaptive_v2/U8p000_n0p700_beta25p00
+
+All requested cases completed and passed the final quality checks.
+Finished: Tue Oct 13 15:24:26 EDT 2026

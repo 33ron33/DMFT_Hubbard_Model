@@ -1,0 +1,11 @@
+[
+  {
+    "U_over_t": 8.0,
+    "target_filling": 0.7,
+    "mu_over_t": 0.5706,
+    "final_filling": 0.7002475801990911,
+    "final_bethe_residual": 0.00037741482482274273,
+    "quality_passed": true,
+    "output_directory": "/lustre/isaac24/scratch/rnain/DMFT_with_Doping/cthyb_test_results/U8_n0p7_beta25_adaptive_v2/U8p000_n0p700_beta25p00"
+  }
+]
