@@ -96,8 +96,8 @@ echo "Start: $(date)"
   --mix 0.30 \
   --dmft-tol 2e-3 \
   --density-tol 1e-3 \
-  --density-stability-tol 1e-3 \
-  --mu-tol-over-t 1e-3 \
+  --density-stability-tol 5e-3 \
+  --mu-tol-over-t 5e-3 \
   --stable-iterations 2 \
   --min-dmft-iter 4 \
   --max-dmft-iter 60 \

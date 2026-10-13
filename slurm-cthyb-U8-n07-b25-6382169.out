@@ -1,0 +1,73 @@
+Python: /lustre/isaac24/scratch/rnain/envs/NN_Solver/bin/python
+Warning: could not identify MPI environment!
+TRIQS/CTHYB imports: OK
+Job ID: 6382169
+Node: ber0725
+Run tag: U8_n0p7_beta25_refined
+Start: Mon Oct 12 17:19:22 EDT 2026
+Warning: could not identify MPI environment!
+Starting serial run at: 2026-10-12 17:19:24.269997
+
+Pure CTHYB Bethe-DMFT configuration
+  internal t = 1; beta*t = 25.00000000; kB*T/t = 0.04
+  physical mapping: t=0.25 eV, T=116.045 K
+  lowest positive Matsubara frequency omega0/t = 0.12566371
+  U/t values = [8.0]; target fillings = [0.7]
+  DMFT tolerance = 0.002; density tolerance = 0.001
+  search QMC: cycles=100000, warmup=10000, length_cycle=600
+
+==============================================================================
+Starting U/t=8, target n=0.7 (hole doping=0.3)
+
+  Evaluating mu/t=+0.50000000 for target n=0.700000
+    DMFT   1: mu/t=+0.50000000 n=0.5996900 residual=1.971e-01 dn=inf sign=1.000000 tau_auto=3.01 cycles
+    DMFT   2: mu/t=+0.50000000 n=0.6265900 residual=1.208e-01 dn=2.690e-02 sign=1.000000 tau_auto=2.58 cycles
+    DMFT   3: mu/t=+0.50000000 n=0.6462100 residual=7.407e-02 dn=1.962e-02 sign=1.000000 tau_auto=1.06 cycles
+    DMFT   4: mu/t=+0.50000000 n=0.6618700 residual=4.601e-02 dn=1.566e-02 sign=1.000000 tau_auto=2.57 cycles
+    DMFT   5: mu/t=+0.50000000 n=0.6675600 residual=2.946e-02 dn=5.690e-03 sign=1.000000 tau_auto=2.26 cycles
+Insert error : recovering ... 
+    DMFT   6: mu/t=+0.50000000 n=0.6698400 residual=1.892e-02 dn=2.280e-03 sign=1.000000 tau_auto=1.22 cycles
+    DMFT   7: mu/t=+0.50000000 n=0.6754100 residual=1.275e-02 dn=5.570e-03 sign=1.000000 tau_auto=0.895 cycles
+    DMFT   8: mu/t=+0.50000000 n=0.6800800 residual=8.922e-03 dn=4.670e-03 sign=1.000000 tau_auto=1.23 cycles
+    DMFT   9: mu/t=+0.50000000 n=0.6792200 residual=5.678e-03 dn=8.600e-04 sign=1.000000 tau_auto=0.604 cycles
+    DMFT  10: mu/t=+0.50000000 n=0.6787300 residual=4.333e-03 dn=4.900e-04 sign=1.000000 tau_auto=2.08 cycles
+    DMFT  11: mu/t=+0.50000000 n=0.6811200 residual=2.937e-03 dn=2.390e-03 sign=1.000000 tau_auto=1.92 cycles
+    DMFT  12: mu/t=+0.50000000 n=0.6818300 residual=1.780e-03 dn=7.100e-04 sign=1.000000 tau_auto=1.35 cycles
+    DMFT  13: mu/t=+0.50000000 n=0.6795200 residual=1.479e-03 dn=2.310e-03 sign=1.000000 tau_auto=1.12 cycles
+
+  Evaluating mu/t=+0.65000000 for target n=0.700000
+    DMFT   1: mu/t=+0.65000000 n=0.6305000 residual=2.090e-01 dn=inf sign=1.000000 tau_auto=1.08 cycles
+    DMFT   2: mu/t=+0.65000000 n=0.6606700 residual=1.281e-01 dn=3.017e-02 sign=1.000000 tau_auto=2.13 cycles
+    DMFT   3: mu/t=+0.65000000 n=0.6785500 residual=7.879e-02 dn=1.788e-02 sign=1.000000 tau_auto=1.8 cycles
+    DMFT   4: mu/t=+0.65000000 n=0.6955100 residual=4.943e-02 dn=1.696e-02 sign=1.000000 tau_auto=1.88 cycles
+    DMFT   5: mu/t=+0.65000000 n=0.7061800 residual=3.174e-02 dn=1.067e-02 sign=1.000000 tau_auto=1.02 cycles
+    DMFT   6: mu/t=+0.65000000 n=0.7132052 residual=2.016e-02 dn=7.025e-03 sign=1.000000 tau_auto=1.39 cycles
+    DMFT   7: mu/t=+0.65000000 n=0.7129300 residual=1.426e-02 dn=2.752e-04 sign=1.000000 tau_auto=1.72 cycles
+    DMFT   8: mu/t=+0.65000000 n=0.7168500 residual=9.493e-03 dn=3.920e-03 sign=1.000000 tau_auto=1.04 cycles
+    DMFT   9: mu/t=+0.65000000 n=0.7190751 residual=6.395e-03 dn=2.225e-03 sign=1.000000 tau_auto=0.949 cycles
+    DMFT  10: mu/t=+0.65000000 n=0.7168400 residual=4.408e-03 dn=2.235e-03 sign=1.000000 tau_auto=1.98 cycles
+    DMFT  11: mu/t=+0.65000000 n=0.7202500 residual=2.697e-03 dn=3.410e-03 sign=1.000000 tau_auto=1.28 cycles
+    DMFT  12: mu/t=+0.65000000 n=0.7204300 residual=2.745e-03 dn=1.800e-04 sign=1.000000 tau_auto=2.28 cycles
+    DMFT  13: mu/t=+0.65000000 n=0.7206600 residual=1.975e-03 dn=2.300e-04 sign=1.000000 tau_auto=1.28 cycles
+    DMFT  14: mu/t=+0.65000000 n=0.7202100 residual=1.794e-03 dn=4.500e-04 sign=1.000000 tau_auto=2.31 cycles
+
+  Evaluating mu/t=+0.57549767 for target n=0.700000
+Insert error : recovering ... 
+    DMFT   1: mu/t=+0.57549767 n=0.7011800 residual=1.030e-02 dn=inf sign=1.000000 tau_auto=1.87 cycles
+    DMFT   2: mu/t=+0.57549767 n=0.6997600 residual=5.258e-03 dn=1.420e-03 sign=1.000000 tau_auto=1.98 cycles
+    DMFT   3: mu/t=+0.57549767 n=0.7018700 residual=4.860e-03 dn=2.110e-03 sign=1.000000 tau_auto=1.03 cycles
+    DMFT   4: mu/t=+0.57549767 n=0.6996000 residual=2.618e-03 dn=2.270e-03 sign=1.000000 tau_auto=1.63 cycles
+    DMFT   5: mu/t=+0.57549767 n=0.6996400 residual=1.556e-03 dn=4.000e-05 sign=1.000000 tau_auto=1.85 cycles
+    DMFT   6: mu/t=+0.57549767 n=0.7002200 residual=1.333e-03 dn=5.800e-04 sign=1.000000 tau_auto=1.44 cycles
+
+  Selected mu/t=+0.575497665, search filling=0.7002200, error=+2.200e-04
+  Final fixed-bath replica 1/4
+Insert error : recovering ... 
+  Final fixed-bath replica 2/4
+  Final fixed-bath replica 3/4
+Insert error : recovering ... 
+  Final fixed-bath replica 4/4
+  Final replica filling = 0.7013251; Bethe residual=1.345e-03; saved to /lustre/isaac24/scratch/rnain/DMFT_with_Doping/cthyb_test_results/U8_n0p7_beta25_refined/U8p000_n0p700_beta25p00
+  WARNING: production-replica filling misses --density-tol. Increase search statistics and rerun before treating this as final data.
+
+All requested cases completed, but at least one case failed a final residual or density check; inspect run_summary.json before using the data.

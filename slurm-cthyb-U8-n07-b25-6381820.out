@@ -37,3 +37,10 @@ Insert error : recovering ...
     DMFT  13: mu/t=+0.50000000 n=0.6795200 residual=1.479e-03 dn=2.310e-03 sign=1.000000 tau_auto=1.12 cycles
     DMFT  14: mu/t=+0.50000000 n=0.6826800 residual=2.184e-03 dn=3.160e-03 sign=1.000000 tau_auto=1.41 cycles
     DMFT  15: mu/t=+0.50000000 n=0.6824100 residual=1.169e-03 dn=2.700e-04 sign=1.000000 tau_auto=1.51 cycles
+    DMFT  16: mu/t=+0.50000000 n=0.6798400 residual=1.045e-03 dn=2.570e-03 sign=1.000000 tau_auto=1.25 cycles
+    DMFT  17: mu/t=+0.50000000 n=0.6849400 residual=1.205e-03 dn=5.100e-03 sign=1.000000 tau_auto=1.13 cycles
+    DMFT  18: mu/t=+0.50000000 n=0.6819600 residual=1.184e-03 dn=2.980e-03 sign=1.000000 tau_auto=1.6 cycles
+    DMFT  19: mu/t=+0.50000000 n=0.6824916 residual=1.149e-03 dn=5.316e-04 sign=1.000000 tau_auto=1.08 cycles
+    DMFT  20: mu/t=+0.50000000 n=0.6808100 residual=1.440e-03 dn=1.682e-03 sign=1.000000 tau_auto=2.6 cycles
+    DMFT  21: mu/t=+0.50000000 n=0.6821100 residual=1.439e-03 dn=1.300e-03 sign=1.000000 tau_auto=2.29 cycles
+    DMFT  22: mu/t=+0.50000000 n=0.6811100 residual=1.144e-03 dn=1.000e-03 sign=1.000000 tau_auto=1.16 cycles

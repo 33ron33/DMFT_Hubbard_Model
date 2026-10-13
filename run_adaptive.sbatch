@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=cthyb-U8-adapt
+#SBATCH --job-name=cthyb-U10-n09
 #SBATCH --partition=campus
 #SBATCH --account=acf-utk0014
 #SBATCH --qos=campus
@@ -16,9 +16,11 @@ set -euo pipefail
 WORKDIR="/lustre/isaac24/scratch/rnain/DMFT_with_Doping"
 PYTHON_BIN="/lustre/isaac24/scratch/rnain/envs/NN_Solver/bin/python"
 SCRIPT="$WORKDIR/doped_bethe_cthyb_dmft_adaptive.py"
-RUN_TAG="U8_n0p7_beta25_adaptive_v1"
+
+RUN_TAG="U10_n0p9_beta25_adaptive_v1"
 OUTPUT_ROOT="$WORKDIR/cthyb_test_results"
 LOG_DIR="$OUTPUT_ROOT/$RUN_TAG"
+
 
 module load gcc/13.4.0 openmpi/4.1.8-gcc13 fftw/3.3.11-gcc13 openblas/0.3.12
 cd "$WORKDIR"
@@ -84,9 +86,8 @@ echo "Job ID: ${SLURM_JOB_ID:-manual}; node: $(hostname); start: $(date)"
   --min-dmft-iter 4 \
   --max-dmft-iter 60 \
   --max-mu-iter 16 \
-  --mu-min-over-t -1 \
-  --mu-max-over-t 5 \
-  --mu-guess-over-t -1 \
+  --mu-min-over-t -1.0 \
+  --mu-max-over-t 5.0 \
   --conv-n-iw 32 \
   --max-bracket-expansions 4 \
   --plot-n-iw 80 \
