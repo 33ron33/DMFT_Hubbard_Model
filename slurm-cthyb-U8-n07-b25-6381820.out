@@ -5,3 +5,35 @@ Job ID: 6381820
 Node: ber0724
 Run tag: U8_n0p7_beta25_refined
 Start: Mon Oct 12 16:34:49 EDT 2026
+Matplotlib is building the font cache; this may take a moment.
+Warning: could not identify MPI environment!
+Starting serial run at: 2026-10-12 16:35:22.658349
+
+Pure CTHYB Bethe-DMFT configuration
+  internal t = 1; beta*t = 25.00000000; kB*T/t = 0.04
+  physical mapping: t=0.25 eV, T=116.045 K
+  lowest positive Matsubara frequency omega0/t = 0.12566371
+  U/t values = [8.0]; target fillings = [0.7]
+  DMFT tolerance = 0.002; density tolerance = 0.001
+  search QMC: cycles=100000, warmup=10000, length_cycle=600
+
+==============================================================================
+Starting U/t=8, target n=0.7 (hole doping=0.3)
+
+  Evaluating mu/t=+0.50000000 for target n=0.700000
+    DMFT   1: mu/t=+0.50000000 n=0.5996900 residual=1.971e-01 dn=inf sign=1.000000 tau_auto=3.01 cycles
+    DMFT   2: mu/t=+0.50000000 n=0.6265900 residual=1.208e-01 dn=2.690e-02 sign=1.000000 tau_auto=2.58 cycles
+    DMFT   3: mu/t=+0.50000000 n=0.6462100 residual=7.407e-02 dn=1.962e-02 sign=1.000000 tau_auto=1.06 cycles
+    DMFT   4: mu/t=+0.50000000 n=0.6618700 residual=4.601e-02 dn=1.566e-02 sign=1.000000 tau_auto=2.57 cycles
+    DMFT   5: mu/t=+0.50000000 n=0.6675600 residual=2.946e-02 dn=5.690e-03 sign=1.000000 tau_auto=2.26 cycles
+Insert error : recovering ... 
+    DMFT   6: mu/t=+0.50000000 n=0.6698400 residual=1.892e-02 dn=2.280e-03 sign=1.000000 tau_auto=1.22 cycles
+    DMFT   7: mu/t=+0.50000000 n=0.6754100 residual=1.275e-02 dn=5.570e-03 sign=1.000000 tau_auto=0.895 cycles
+    DMFT   8: mu/t=+0.50000000 n=0.6800800 residual=8.922e-03 dn=4.670e-03 sign=1.000000 tau_auto=1.23 cycles
+    DMFT   9: mu/t=+0.50000000 n=0.6792200 residual=5.678e-03 dn=8.600e-04 sign=1.000000 tau_auto=0.604 cycles
+    DMFT  10: mu/t=+0.50000000 n=0.6787300 residual=4.333e-03 dn=4.900e-04 sign=1.000000 tau_auto=2.08 cycles
+    DMFT  11: mu/t=+0.50000000 n=0.6811200 residual=2.937e-03 dn=2.390e-03 sign=1.000000 tau_auto=1.92 cycles
+    DMFT  12: mu/t=+0.50000000 n=0.6818300 residual=1.780e-03 dn=7.100e-04 sign=1.000000 tau_auto=1.35 cycles
+    DMFT  13: mu/t=+0.50000000 n=0.6795200 residual=1.479e-03 dn=2.310e-03 sign=1.000000 tau_auto=1.12 cycles
+    DMFT  14: mu/t=+0.50000000 n=0.6826800 residual=2.184e-03 dn=3.160e-03 sign=1.000000 tau_auto=1.41 cycles
+    DMFT  15: mu/t=+0.50000000 n=0.6824100 residual=1.169e-03 dn=2.700e-04 sign=1.000000 tau_auto=1.51 cycles
