@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=cthyb-U8-n07-v2
+#SBATCH --job-name=cthyb-U10-n07-v2
 #SBATCH --partition=campus
 #SBATCH --account=acf-utk0014
 #SBATCH --qos=campus
@@ -16,7 +16,7 @@ set -euo pipefail
 WORKDIR="/lustre/isaac24/scratch/rnain/DMFT_with_Doping"
 PYTHON_BIN="/lustre/isaac24/scratch/rnain/envs/NN_Solver/bin/python"
 SCRIPT="$WORKDIR/doped_bethe_cthyb_dmft_adaptive.py"
-RUN_TAG="U8_n0p7_beta25_adaptive_v2"
+RUN_TAG="U10_n0p7_beta25_adaptive_v2"
 OUTPUT_ROOT="$WORKDIR/cthyb_test_results"
 LOG_DIR="$OUTPUT_ROOT/$RUN_TAG"
 
@@ -45,10 +45,10 @@ print("TRIQS/CTHYB imports: OK", flush=True)
 PYCHECK
 
 echo "Job ID: ${SLURM_JOB_ID:-manual}; node: $(hostname); start: $(date)"
-echo "Case: U/t=8, n=0.7, beta*t=25; run tag: $RUN_TAG"
+echo "Case: U/t=10, n=0.7, beta*t=25; run tag: $RUN_TAG"
 
 "$PYTHON_BIN" -u "$SCRIPT" \
-  --u-over-t 8 \
+  --u-over-t 10 \
   --fillings 0.7 \
   --beta-t 25 \
   --t 0.25 \
@@ -70,7 +70,7 @@ echo "Case: U/t=8, n=0.7, beta*t=25; run tag: $RUN_TAG"
   --final-n-cycles 400000 \
   --final-n-warmup-cycles 40000 \
   --final-length-cycle 800 \
-  --seed 161803 \
+  --seed 161804 \
   --vary-seed-by-iteration \
   --cthyb-verbosity 1 \
   --cthyb-max-time -1 \
@@ -86,9 +86,8 @@ echo "Case: U/t=8, n=0.7, beta*t=25; run tag: $RUN_TAG"
   --min-dmft-iter 4 \
   --max-dmft-iter 80 \
   --max-mu-iter 20 \
-  --mu-min-over-t 0.50 \
-  --mu-max-over-t 0.65 \
-  --mu-guess-over-t 0.5706 \
+  --mu-min-over-t -1.00 \
+  --mu-max-over-t 5.0 \
   --conv-n-iw 32 \
   --max-bracket-expansions 4 \
   --plot-n-iw 80 \

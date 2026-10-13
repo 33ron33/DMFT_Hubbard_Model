@@ -1,0 +1,57 @@
+Warning: could not identify MPI environment!
+Python: /lustre/isaac24/scratch/rnain/envs/NN_Solver/bin/python
+TRIQS/CTHYB imports: OK
+Job ID: 6391453; node: ber0724; start: Tue Oct 13 15:53:11 EDT 2026
+Case: U/t=8, n=0.9, beta*t=25; run tag: U8_n0p9_beta25_adaptive_v2
+Matplotlib is building the font cache; this may take a moment.
+Warning: could not identify MPI environment!
+Starting serial run at: 2026-10-13 15:53:28.144587
+
+Pure CTHYB Bethe-DMFT configuration
+  internal t = 1; beta*t = 25.00000000; kB*T/t = 0.04
+  physical mapping: t=0.25 eV, T=116.045 K
+  lowest positive Matsubara frequency omega0/t = 0.12566371
+  U/t values = [8.0]; target fillings = [0.9]
+  DMFT tolerance = 0.002; density tolerance = 0.001
+  COARSE QMC: cycles=30000, warmup=4000, length_cycle=450, tol=0.01
+  REFINED QMC: cycles=200000, warmup=10000, length_cycle=600, tol=0.002
+  switch when both bracket density errors <= 0.06; coarse densities are never used to accept final filling.
+
+==============================================================================
+Starting U/t=8, target n=0.9 (hole doping=0.1)
+
+  [COARSE] Evaluating mu/t=-1.00000000 (target n=0.900000, cycles=30000, length_cycle=450)
+    [coarse] DMFT   1: mu/t=-1.00000000 n=0.2563667 residual=7.425e-02 dn=inf sign=1.000000 tau_auto=1.41 cycles
+    [coarse] DMFT   2: mu/t=-1.00000000 n=0.2522333 residual=4.604e-02 dn=4.133e-03 sign=1.000000 tau_auto=1.09 cycles
+    [coarse] DMFT   3: mu/t=-1.00000000 n=0.2415667 residual=2.931e-02 dn=1.067e-02 sign=1.000000 tau_auto=1.32 cycles
+    [coarse] DMFT   4: mu/t=-1.00000000 n=0.2394333 residual=1.922e-02 dn=2.133e-03 sign=1.000000 tau_auto=1.5 cycles
+    [coarse] DMFT   5: mu/t=-1.00000000 n=0.2395333 residual=1.260e-02 dn=1.000e-04 sign=1.000000 tau_auto=2.46 cycles
+    [coarse] DMFT   6: mu/t=-1.00000000 n=0.2439000 residual=8.591e-03 dn=4.367e-03 sign=1.000000 tau_auto=1.91 cycles
+    [coarse] DMFT   7: mu/t=-1.00000000 n=0.2406000 residual=6.561e-03 dn=3.300e-03 sign=1.000000 tau_auto=2.29 cycles
+  [COARSE] Converged mu/t=-1.00000000: n=0.2406000, n-target=-6.5940e-01
+
+  [COARSE] Evaluating mu/t=+4.00000000 (target n=0.900000, cycles=30000, length_cycle=450)
+    [coarse] DMFT   1: mu/t=+4.00000000 n=1.0160989 residual=1.089e-01 dn=inf sign=0.999870 tau_auto=3.1 cycles
+    [coarse] DMFT   2: mu/t=+4.00000000 n=1.0158694 residual=1.331e-01 dn=2.295e-04 sign=0.955462 tau_auto=1.46 cycles
+    [coarse] DMFT   3: mu/t=+4.00000000 n=1.0092974 residual=9.394e-02 dn=6.572e-03 sign=0.982193 tau_auto=1.06 cycles
+    [coarse] DMFT   4: mu/t=+4.00000000 n=1.0045546 residual=6.671e-02 dn=4.743e-03 sign=0.994137 tau_auto=3.07 cycles
+    [coarse] DMFT   5: mu/t=+4.00000000 n=1.0062993 residual=4.678e-02 dn=1.745e-03 sign=0.997915 tau_auto=1.94 cycles
+    [coarse] DMFT   6: mu/t=+4.00000000 n=1.0055276 residual=3.601e-02 dn=7.717e-04 sign=0.998442 tau_auto=2.46 cycles
+    [coarse] DMFT   7: mu/t=+4.00000000 n=1.0019487 residual=2.575e-02 dn=3.579e-03 sign=0.999805 tau_auto=2.86 cycles
+    [coarse] DMFT   8: mu/t=+4.00000000 n=1.0027628 residual=1.627e-02 dn=8.141e-04 sign=1.000000 tau_auto=1.96 cycles
+    [coarse] DMFT   9: mu/t=+4.00000000 n=1.0005852 residual=1.211e-02 dn=2.178e-03 sign=1.000000 tau_auto=1.34 cycles
+Insert error : recovering ... 
+    [coarse] DMFT  10: mu/t=+4.00000000 n=1.0009421 residual=8.681e-03 dn=3.569e-04 sign=1.000000 tau_auto=3.62 cycles
+    [coarse] DMFT  11: mu/t=+4.00000000 n=1.0014275 residual=8.335e-03 dn=4.854e-04 sign=1.000000 tau_auto=1.78 cycles
+  [COARSE] Converged mu/t=+4.00000000: n=1.0014275, n-target=+1.0143e-01
+
+  [COARSE] Evaluating mu/t=+3.25000000 (target n=0.900000, cycles=30000, length_cycle=450)
+    [coarse] DMFT   1: mu/t=+3.25000000 n=0.9705377 residual=2.441e-01 dn=inf sign=1.000000 tau_auto=5.43 cycles
+    [coarse] DMFT   2: mu/t=+3.25000000 n=0.9745296 residual=1.842e-01 dn=3.992e-03 sign=1.000000 tau_auto=3.03 cycles
+    [coarse] DMFT   3: mu/t=+3.25000000 n=0.9815559 residual=1.409e-01 dn=7.026e-03 sign=1.000000 tau_auto=1.88 cycles
+    [coarse] DMFT   4: mu/t=+3.25000000 n=0.9836253 residual=1.083e-01 dn=2.069e-03 sign=1.000000 tau_auto=1.41 cycles
+    [coarse] DMFT   5: mu/t=+3.25000000 n=0.9889013 residual=8.207e-02 dn=5.276e-03 sign=1.000000 tau_auto=2.55 cycles
+    [coarse] DMFT   6: mu/t=+3.25000000 n=0.9927685 residual=6.309e-02 dn=3.867e-03 sign=1.000000 tau_auto=1.03 cycles
+    [coarse] DMFT   7: mu/t=+3.25000000 n=0.9941377 residual=4.734e-02 dn=1.369e-03 sign=1.000000 tau_auto=1.66 cycles
+    [coarse] DMFT   8: mu/t=+3.25000000 n=0.9946126 residual=3.751e-02 dn=4.750e-04 sign=1.000000 tau_auto=1.26 cycles
+    [coarse] DMFT   9: mu/t=+3.25000000 n=0.9956308 residual=2.691e-02 dn=1.018e-03 sign=1.000000 tau_auto=1.71 cycles
