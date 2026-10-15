@@ -138,3 +138,88 @@ Insert error : recovering ...
     [refined] DMFT  18: mu/t=+1.49284360 n=0.9017400 residual=2.471e-03 dn=2.180e-03 sign=1.000000 tau_auto=6.52 cycles
     [refined] DMFT  19: mu/t=+1.49284360 n=0.9039835 residual=3.176e-03 dn=2.244e-03 sign=1.000000 tau_auto=13.3 cycles
     [refined] DMFT  20: mu/t=+1.49284360 n=0.9053000 residual=3.303e-03 dn=1.316e-03 sign=1.000000 tau_auto=9.31 cycles
+    [refined] DMFT  21: mu/t=+1.49284360 n=0.9010000 residual=3.001e-03 dn=4.300e-03 sign=1.000000 tau_auto=15.5 cycles
+Insert error : recovering ... 
+    [refined] DMFT  22: mu/t=+1.49284360 n=0.8994400 residual=4.110e-03 dn=1.560e-03 sign=1.000000 tau_auto=10.7 cycles
+    [refined] DMFT  23: mu/t=+1.49284360 n=0.8989600 residual=4.672e-03 dn=4.800e-04 sign=1.000000 tau_auto=11.3 cycles
+    [refined] DMFT  24: mu/t=+1.49284360 n=0.9036600 residual=3.195e-03 dn=4.700e-03 sign=1.000000 tau_auto=7.79 cycles
+    [refined] DMFT  25: mu/t=+1.49284360 n=0.8993400 residual=3.353e-03 dn=4.320e-03 sign=1.000000 tau_auto=13.5 cycles
+Insert error : recovering ... 
+    [refined] DMFT  26: mu/t=+1.49284360 n=0.9003473 residual=2.166e-03 dn=1.007e-03 sign=1.000000 tau_auto=10.1 cycles
+    [refined] DMFT  27: mu/t=+1.49284360 n=0.9053800 residual=6.639e-03 dn=5.033e-03 sign=1.000000 tau_auto=7.69 cycles
+    [refined] DMFT  28: mu/t=+1.49284360 n=0.9050400 residual=3.333e-03 dn=3.400e-04 sign=1.000000 tau_auto=10.5 cycles
+    [refined] DMFT  29: mu/t=+1.49284360 n=0.9001200 residual=5.031e-03 dn=4.920e-03 sign=1.000000 tau_auto=12.2 cycles
+    [refined] DMFT  30: mu/t=+1.49284360 n=0.9022400 residual=2.017e-03 dn=2.120e-03 sign=1.000000 tau_auto=13.5 cycles
+    [refined] DMFT  31: mu/t=+1.49284360 n=0.9022400 residual=3.594e-03 dn=0.000e+00 sign=1.000000 tau_auto=8.68 cycles
+Insert error : recovering ... 
+    [refined] DMFT  32: mu/t=+1.49284360 n=0.9036235 residual=3.055e-03 dn=1.384e-03 sign=1.000000 tau_auto=9.01 cycles
+    [refined] DMFT  33: mu/t=+1.49284360 n=0.9005000 residual=2.794e-03 dn=3.124e-03 sign=1.000000 tau_auto=12.8 cycles
+    [refined] DMFT  34: mu/t=+1.49284360 n=0.8990800 residual=3.325e-03 dn=1.420e-03 sign=1.000000 tau_auto=7.11 cycles
+    [refined] DMFT  35: mu/t=+1.49284360 n=0.9015200 residual=2.989e-03 dn=2.440e-03 sign=1.000000 tau_auto=6.56 cycles
+    [refined] DMFT  36: mu/t=+1.49284360 n=0.9018000 residual=2.262e-03 dn=2.800e-04 sign=1.000000 tau_auto=12.3 cycles
+  [REFINED] Converged mu/t=+1.49284360: n=0.9018000, n-target=+1.8000e-03
+
+  [REFINED] Evaluating mu/t=+1.48341706 (target n=0.900000, cycles=50000, length_cycle=800)
+Insert error : recovering ... 
+    [refined] DMFT   1: mu/t=+1.48341706 n=0.8935200 residual=1.307e-02 dn=inf sign=1.000000 tau_auto=4.9 cycles
+    [refined] DMFT   2: mu/t=+1.48341706 n=0.8966600 residual=8.965e-03 dn=3.140e-03 sign=1.000000 tau_auto=9.42 cycles
+    [refined] DMFT   3: mu/t=+1.48341706 n=0.9009436 residual=7.132e-03 dn=4.284e-03 sign=1.000000 tau_auto=6.09 cycles
+    [refined] DMFT   4: mu/t=+1.48341706 n=0.8994800 residual=6.911e-03 dn=1.464e-03 sign=1.000000 tau_auto=19.7 cycles
+    [refined] DMFT   5: mu/t=+1.48341706 n=0.8985800 residual=4.994e-03 dn=9.000e-04 sign=1.000000 tau_auto=7.23 cycles
+    [refined] DMFT   6: mu/t=+1.48341706 n=0.8977600 residual=6.359e-03 dn=8.200e-04 sign=1.000000 tau_auto=11.8 cycles
+    [refined] DMFT   7: mu/t=+1.48341706 n=0.9000600 residual=3.860e-03 dn=2.300e-03 sign=1.000000 tau_auto=8.57 cycles
+    [refined] DMFT   8: mu/t=+1.48341706 n=0.9007400 residual=5.477e-03 dn=6.800e-04 sign=1.000000 tau_auto=13.8 cycles
+    [refined] DMFT   9: mu/t=+1.48341706 n=0.9048200 residual=6.462e-03 dn=4.080e-03 sign=1.000000 tau_auto=5.9 cycles
+    [refined] DMFT  10: mu/t=+1.48341706 n=0.8979800 residual=3.665e-03 dn=6.840e-03 sign=1.000000 tau_auto=12.3 cycles
+    [refined] DMFT  11: mu/t=+1.48341706 n=0.8959000 residual=2.975e-03 dn=2.080e-03 sign=1.000000 tau_auto=12.7 cycles
+    [refined] DMFT  12: mu/t=+1.48341706 n=0.8995000 residual=3.469e-03 dn=3.600e-03 sign=1.000000 tau_auto=7.7 cycles
+    [refined] DMFT  13: mu/t=+1.48341706 n=0.8997200 residual=4.036e-03 dn=2.200e-04 sign=1.000000 tau_auto=7 cycles
+    [refined] DMFT  14: mu/t=+1.48341706 n=0.9012200 residual=2.382e-03 dn=1.500e-03 sign=1.000000 tau_auto=7.91 cycles
+    [refined] DMFT  15: mu/t=+1.48341706 n=0.9049800 residual=4.741e-03 dn=3.760e-03 sign=1.000000 tau_auto=8.03 cycles
+    [refined] DMFT  16: mu/t=+1.48341706 n=0.8993400 residual=2.657e-03 dn=5.640e-03 sign=1.000000 tau_auto=9.87 cycles
+    [refined] DMFT  17: mu/t=+1.48341706 n=0.8985600 residual=2.249e-03 dn=7.800e-04 sign=1.000000 tau_auto=14.8 cycles
+  [REFINED] Converged mu/t=+1.48341706: n=0.8985600, n-target=-1.4400e-03
+
+  [REFINED] Evaluating mu/t=+1.48760664 (target n=0.900000, cycles=50000, length_cycle=800)
+    [refined] DMFT   1: mu/t=+1.48760664 n=0.8991000 residual=2.850e-03 dn=inf sign=1.000000 tau_auto=7.28 cycles
+    [refined] DMFT   2: mu/t=+1.48760664 n=0.8995800 residual=5.599e-03 dn=4.800e-04 sign=1.000000 tau_auto=9.36 cycles
+    [refined] DMFT   3: mu/t=+1.48760664 n=0.8999400 residual=3.930e-03 dn=3.600e-04 sign=1.000000 tau_auto=12.6 cycles
+    [refined] DMFT   4: mu/t=+1.48760664 n=0.9012800 residual=8.903e-03 dn=1.340e-03 sign=1.000000 tau_auto=10.1 cycles
+Insert error : recovering ... 
+    [refined] DMFT   5: mu/t=+1.48760664 n=0.9010400 residual=3.166e-03 dn=2.400e-04 sign=1.000000 tau_auto=11.7 cycles
+    [refined] DMFT   6: mu/t=+1.48760664 n=0.9001800 residual=3.479e-03 dn=8.600e-04 sign=1.000000 tau_auto=11.1 cycles
+    [refined] DMFT   7: mu/t=+1.48760664 n=0.8970600 residual=5.525e-03 dn=3.120e-03 sign=1.000000 tau_auto=11 cycles
+    [refined] DMFT   8: mu/t=+1.48760664 n=0.9041000 residual=2.755e-03 dn=7.040e-03 sign=1.000000 tau_auto=7.27 cycles
+    [refined] DMFT   9: mu/t=+1.48760664 n=0.8978800 residual=2.621e-03 dn=6.220e-03 sign=1.000000 tau_auto=11.5 cycles
+  [REFINED] Converged mu/t=+1.48760664: n=0.8978800, n-target=-2.1200e-03
+
+  [REFINED] Evaluating mu/t=+1.49043887 (target n=0.900000, cycles=50000, length_cycle=800)
+    [refined] DMFT   1: mu/t=+1.49043887 n=0.9024400 residual=3.511e-03 dn=inf sign=1.000000 tau_auto=7.85 cycles
+    [refined] DMFT   2: mu/t=+1.49043887 n=0.9026600 residual=3.157e-03 dn=2.200e-04 sign=1.000000 tau_auto=9.78 cycles
+    [refined] DMFT   3: mu/t=+1.49043887 n=0.9015400 residual=4.122e-03 dn=1.120e-03 sign=1.000000 tau_auto=6.98 cycles
+    [refined] DMFT   4: mu/t=+1.49043887 n=0.9049200 residual=3.637e-03 dn=3.380e-03 sign=1.000000 tau_auto=9.29 cycles
+    [refined] DMFT   5: mu/t=+1.49043887 n=0.9040000 residual=3.376e-03 dn=9.200e-04 sign=1.000000 tau_auto=9.66 cycles
+    [refined] DMFT   6: mu/t=+1.49043887 n=0.8979800 residual=4.191e-03 dn=6.020e-03 sign=1.000000 tau_auto=8.97 cycles
+    [refined] DMFT   7: mu/t=+1.49043887 n=0.9025400 residual=3.452e-03 dn=4.560e-03 sign=1.000000 tau_auto=10.7 cycles
+    [refined] DMFT   8: mu/t=+1.49043887 n=0.9010600 residual=4.149e-03 dn=1.480e-03 sign=1.000000 tau_auto=9.7 cycles
+    [refined] DMFT   9: mu/t=+1.49043887 n=0.9012200 residual=3.721e-03 dn=1.600e-04 sign=1.000000 tau_auto=7.63 cycles
+    [refined] DMFT  10: mu/t=+1.49043887 n=0.9021000 residual=2.728e-03 dn=8.800e-04 sign=1.000000 tau_auto=13.5 cycles
+Insert error : recovering ... 
+    [refined] DMFT  11: mu/t=+1.49043887 n=0.9048400 residual=2.804e-03 dn=2.740e-03 sign=1.000000 tau_auto=9.19 cycles
+  [REFINED] Converged mu/t=+1.49043887: n=0.9048400, n-target=+4.8400e-03
+
+  [REFINED] Evaluating mu/t=+1.48846933 (target n=0.900000, cycles=50000, length_cycle=800)
+    [refined] DMFT   1: mu/t=+1.48846933 n=0.9048000 residual=8.320e-03 dn=inf sign=1.000000 tau_auto=6.75 cycles
+Insert error : recovering ... 
+    [refined] DMFT   2: mu/t=+1.48846933 n=0.9064200 residual=3.577e-03 dn=1.620e-03 sign=1.000000 tau_auto=11.1 cycles
+    [refined] DMFT   3: mu/t=+1.48846933 n=0.9038800 residual=3.024e-03 dn=2.540e-03 sign=1.000000 tau_auto=11.7 cycles
+    [refined] DMFT   4: mu/t=+1.48846933 n=0.9030800 residual=2.430e-03 dn=8.000e-04 sign=1.000000 tau_auto=6.3 cycles
+    [refined] DMFT   5: mu/t=+1.48846933 n=0.9018600 residual=3.405e-03 dn=1.220e-03 sign=1.000000 tau_auto=7.43 cycles
+    [refined] DMFT   6: mu/t=+1.48846933 n=0.8979400 residual=2.447e-03 dn=3.920e-03 sign=1.000000 tau_auto=10.6 cycles
+    [refined] DMFT   7: mu/t=+1.48846933 n=0.9018000 residual=2.186e-03 dn=3.860e-03 sign=1.000000 tau_auto=9.09 cycles
+  [REFINED] Converged mu/t=+1.48846933: n=0.9018000, n-target=+1.8000e-03
+
+  [REFINED] Evaluating mu/t=+1.48807319 (target n=0.900000, cycles=50000, length_cycle=800)
+    [refined] DMFT   1: mu/t=+1.48807319 n=0.9039200 residual=2.710e-03 dn=inf sign=1.000000 tau_auto=8.78 cycles
+    [refined] DMFT   2: mu/t=+1.48807319 n=0.8989200 residual=4.013e-03 dn=5.000e-03 sign=1.000000 tau_auto=9.03 cycles
+    [refined] DMFT   3: mu/t=+1.48807319 n=0.8995400 residual=3.010e-03 dn=6.200e-04 sign=1.000000 tau_auto=9.21 cycles

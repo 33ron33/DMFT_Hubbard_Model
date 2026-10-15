@@ -1,0 +1,26 @@
+{
+  "case": "U10_n0p7_beta25_adaptive_v2",
+  "U_over_t": 10,
+  "target_filling": 0.7,
+  "dmft_filling": 0.6996401226833591,
+  "mu_over_t": 0.5932271198191557,
+  "beta_t": 25.0,
+  "eta_over_t": 0.15,
+  "min_A_times_t": 0.00027727728739002436,
+  "maximum_Im_Sigma_over_t": -0.010270118410299746,
+  "A_at_fermi_times_t": 0.24676677778129813,
+  "integrated_A_on_saved_window": 0.9849010862162957,
+  "window_omega_over_t": [
+    -12.0,
+    12.0
+  ],
+  "n_from_truncated_broadened_A": 0.7119077730935985,
+  "n_from_A_minus_DMFT": 0.012267650410239472,
+  "continuation_backfit_rmse_over_t": 0.029718410191213372,
+  "regularization_max_delta_ImSigma_over_t": 1.1195846338826563,
+  "A_integrated_L1_change_under_regularization": {
+    "lambda_half": 0.03899079568102312,
+    "lambda_double": 0.03205321522274698
+  },
+  "note": "Area and filling are window-limited and eta-broadened; deviations are not conclusive. Positive and normalized A alone do not validate continuation."
+}
