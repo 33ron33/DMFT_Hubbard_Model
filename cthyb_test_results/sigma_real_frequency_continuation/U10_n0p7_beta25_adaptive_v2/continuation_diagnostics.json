@@ -1,0 +1,21 @@
+{
+  "source": "/lustre/isaac24/scratch/rnain/DMFT_with_Doping/cthyb_test_results/U10_n0p7_beta25_adaptive_v2/U10p000_n0p700_beta25p00",
+  "method": "Nonnegative spectral density NNLS with second-difference Tikhonov regularization",
+  "warning": "Ill-posed inverse problem. These are model-dependent, eta-broadened estimates, NOT exact Sigma(omega).",
+  "U_over_t": 10.0,
+  "target_filling": 0.7,
+  "achieved_filling": 0.6996401226833591,
+  "mu_over_t": 0.5932271198191557,
+  "beta_t": 25.0,
+  "n_matsubara_used": 64,
+  "eta_over_t": 0.15,
+  "spectral_support_over_t": [
+    -15.0,
+    15.0
+  ],
+  "moment_input_over_t2": 22.744459433356894,
+  "spectral_mass_fraction": 1.0000016772065956,
+  "backfit_complex_rmse_over_t": 0.029718410191213372,
+  "regularization": 0.003,
+  "regularization_sensitivity_imag_max_abs_over_t": 1.1195846338826563
+}
