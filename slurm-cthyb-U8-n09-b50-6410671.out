@@ -223,3 +223,37 @@ Insert error : recovering ...
     [refined] DMFT   1: mu/t=+1.48807319 n=0.9039200 residual=2.710e-03 dn=inf sign=1.000000 tau_auto=8.78 cycles
     [refined] DMFT   2: mu/t=+1.48807319 n=0.8989200 residual=4.013e-03 dn=5.000e-03 sign=1.000000 tau_auto=9.03 cycles
     [refined] DMFT   3: mu/t=+1.48807319 n=0.8995400 residual=3.010e-03 dn=6.200e-04 sign=1.000000 tau_auto=9.21 cycles
+    [refined] DMFT   4: mu/t=+1.48807319 n=0.9001600 residual=3.212e-03 dn=6.200e-04 sign=1.000000 tau_auto=9.19 cycles
+Insert error : recovering ... 
+    [refined] DMFT   5: mu/t=+1.48807319 n=0.9018400 residual=5.210e-03 dn=1.680e-03 sign=1.000000 tau_auto=9.88 cycles
+    [refined] DMFT   6: mu/t=+1.48807319 n=0.9000600 residual=3.394e-03 dn=1.780e-03 sign=1.000000 tau_auto=5.61 cycles
+    [refined] DMFT   7: mu/t=+1.48807319 n=0.9026200 residual=4.112e-03 dn=2.560e-03 sign=1.000000 tau_auto=16.5 cycles
+    [refined] DMFT   8: mu/t=+1.48807319 n=0.8978400 residual=5.477e-03 dn=4.780e-03 sign=1.000000 tau_auto=10.6 cycles
+    [refined] DMFT   9: mu/t=+1.48807319 n=0.9035200 residual=3.170e-03 dn=5.680e-03 sign=1.000000 tau_auto=8.89 cycles
+    [refined] DMFT  10: mu/t=+1.48807319 n=0.9006200 residual=3.959e-03 dn=2.900e-03 sign=1.000000 tau_auto=17.7 cycles
+    [refined] DMFT  11: mu/t=+1.48807319 n=0.9009800 residual=4.850e-03 dn=3.600e-04 sign=1.000000 tau_auto=7.88 cycles
+    [refined] DMFT  12: mu/t=+1.48807319 n=0.9041600 residual=3.993e-03 dn=3.180e-03 sign=1.000000 tau_auto=15.3 cycles
+    [refined] DMFT  13: mu/t=+1.48807319 n=0.8983600 residual=2.941e-03 dn=5.800e-03 sign=1.000000 tau_auto=6.14 cycles
+    [refined] DMFT  14: mu/t=+1.48807319 n=0.9016800 residual=4.500e-03 dn=3.320e-03 sign=1.000000 tau_auto=6.88 cycles
+    [refined] DMFT  15: mu/t=+1.48807319 n=0.8992400 residual=3.022e-03 dn=2.440e-03 sign=1.000000 tau_auto=6.28 cycles
+    [refined] DMFT  16: mu/t=+1.48807319 n=0.8992000 residual=3.073e-03 dn=4.000e-05 sign=1.000000 tau_auto=9 cycles
+Insert error : recovering ... 
+Insert error : recovering ... 
+    [refined] DMFT  17: mu/t=+1.48807319 n=0.9008200 residual=5.984e-03 dn=1.620e-03 sign=1.000000 tau_auto=8.38 cycles
+    [refined] DMFT  18: mu/t=+1.48807319 n=0.9033600 residual=3.094e-03 dn=2.540e-03 sign=1.000000 tau_auto=9.21 cycles
+    [refined] DMFT  19: mu/t=+1.48807319 n=0.8968000 residual=2.470e-03 dn=6.560e-03 sign=1.000000 tau_auto=5.87 cycles
+    [refined] DMFT  20: mu/t=+1.48807319 n=0.8993200 residual=2.832e-03 dn=2.520e-03 sign=1.000000 tau_auto=11 cycles
+  [REFINED] Converged mu/t=+1.48807319: n=0.8993200, n-target=-6.8000e-04
+
+  Selected mu/t=+1.488073193, search filling=0.8993200, error=-6.800e-04
+  Final fixed-bath replica 1/6
+  Final fixed-bath replica 2/6
+  Final fixed-bath replica 3/6
+  Final fixed-bath replica 4/6
+  Final fixed-bath replica 5/6
+Insert error : recovering ... 
+  Final fixed-bath replica 6/6
+  Final replica filling = 0.9017596; Bethe residual=1.574e-03; saved to /lustre/isaac24/scratch/rnain/DMFT_with_Doping/cthyb_test_results/U8_n0p9_beta50_adaptive_retry/U8p000_n0p900_beta50p00
+  WARNING: production-replica filling misses --density-tol. Increase search statistics and rerun before treating this as final data.
+
+All requested cases completed, but at least one case failed a final residual or density check; inspect run_summary.json before using the data.
