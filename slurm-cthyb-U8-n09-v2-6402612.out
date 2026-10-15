@@ -1,0 +1,5 @@
+Warning: could not identify MPI environment!
+Python: /lustre/isaac24/scratch/rnain/envs/NN_Solver/bin/python
+TRIQS/CTHYB imports: OK
+Job ID: 6402612; node: clr0710; start: Wed Oct 14 15:19:19 EDT 2026
+Case: U/t=8, n=0.9, beta*t=25; run tag: U8_n0p9_beta25_adaptive_v2
